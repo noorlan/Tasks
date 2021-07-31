@@ -1,11 +1,11 @@
 output "region" {
-  value = aws_key_pair.wordpress.region
+  value = "us-east-2"
 }
 
 output "key_name" {
-  value = aws_key_pair.wordpress.key_name
+  value = aws_key_pair.ilearning-wordpress.key_name
 }
 
 output "key_id" {
-  value = aws_key_pair.wordpress.key_id
+  value = aws_key_pair.ilearning-wordpress.id
 }
