@@ -6,6 +6,6 @@ output "region" {
   value = "us-east-1"
 }
 
-output "attached vpc" {
+output "attached_vpc" {
   value = aws_security_group.allow_tls.vpc_id
 }
