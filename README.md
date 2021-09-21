@@ -1,2 +1,2 @@
-# interactive-learning-tasks
+Tasks
 This is for Ticket-1
